@@ -1,0 +1,21 @@
+[package]
+name = "forged_cloud"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+argon2 = "0.5"
+tokio-rustls = "0.24"
+rustls = "0.21"
+rustls-pemfile = "1.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+uuid = { version = "1", features = ["v4"] }
+rand_core = "0.9.3"
+rand = "0.8"
+dotenvy = "0.15"
+rpassword = "7.4.0"
+zeroize = "1.8.2"
+hyper = { version = "0.14", features = ["full"] }
+regex = "1.12.2"
