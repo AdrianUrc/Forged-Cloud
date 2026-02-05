@@ -187,3 +187,9 @@ After successful authentication, clients can interact with the server using the 
 # ⚠️ Author Note:
 
 Forged Cloud is not intended for everyone. It is a privacy- and security-focused file server designed for users who value full control, minimalism, and explicit behavior over convenience. The project follows a UNIX-inspired philosophy, prioritizing efficiency, low resource usage, modularity, and predictable operation. Features are deliberately limited to what is strictly necessary, avoiding unnecessary abstraction, hidden automation, or heavyweight components. Forged Cloud is best suited for small, trusted environments and technically proficient users who prefer transparent security mechanisms, strong cryptography, and a system that is understandable, auditable, and self-hosted by design.
+
+# 🌄 IMAGES:
+![NULL](images/img1.png)
+![NULL](images/img4.png)
+![NULL](images/img2.png)
+![NULL](images/img3.png)
