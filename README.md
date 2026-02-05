@@ -169,25 +169,20 @@ After successful authentication, clients can interact with the server using the 
 
   * **UPLOADING FILES**
     
-    Command UPLOAD: `UPLOAD /home/user/secret_file.txt`
-    
-    |__ (just needs to specify the file to upload, it is recommended to use absolute-path.)
+    - Command UPLOAD: `UPLOAD /home/user/secret_file.txt`
+      (just needs to specify the file to upload, it is recommended to use absolute-path.)
 
   * **DOWNLOADING FILES**
 
-    Command DOWNLOAD: `DOWNLOAD file_name`
+    - Command DOWNLOAD: `DOWNLOAD file_name`
+      (generates a temporary https-endpoint token (example: `https://domain.com/download/k1j311-3rf3-sfss-121311`))
     
-    |__ (generates a temporary https-endpoint token (example: https://domain.com/download/k1j311-3rf3-sfss-121311))
-    
-    |
-    
-    |__ COMBINE WITH WGET -> wget https://domain.com/download/k1j311-3rf3-sfss-121311 --no-check-certificate
+    - COMBINE WITH WGET -> `wget https://domain.com/download/k1j311-3rf3-sfss-121311 --no-check-certificate`
 
   * **LISTING FILES**
 
-    Command LIST: `LIST`
-    
-    |__ (prints formatted the available files in the server.)
+    - Command LIST: `LIST`
+      (prints formatted the available files in the server.)
 
 # ⚠️ Author Note:
 
